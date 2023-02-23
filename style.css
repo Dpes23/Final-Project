@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif 'Times New Roman', Times, serif; 
+    
+}
+nav{
+    width:100%;
+    height:50px;
+    background-color: #b800000e;
+    display: flex;
+    align-items: center;
+    padding: 0 40px 0 30px;
+
+}
+nav h1{
+  background-color: black;
+}
+
+.main-img {
+    width: 800px;
+    border-radius: 100px;
+    margin: 110px auto;
+    display: block ;
+    padding:10%;
+    
+}
+.spec .tour{
+  width: 700px;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+
+  border-radius: 50px;
+  margin-top: 20px;
+
+}
+h3{
+  font-size: 50px;
+  text-align: center;
+}
+ul{
+font-size: 30px;
+padding: 20px;
+
+}
+ul li{
+  text-decoration: none;
+  padding: 10px;
+
+}
+h4{
+font-size: 30px;
+
+}
+p{
+  font-size: 20px;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+.map{
+  width: 700px;
+  
+}
+nav .links{
+    display: flex;
+    position: absolute;
+    right: 90px;
+   
+}
+
+nav .links li a{
+
+    color:olivedrab;;
+    padding:0 10px;
+    font-size: 18px;
+    text-decoration:none;
+
+}
+
+nav .links li a:hover {
+    background: rgb(0, 99, 102);
+    transition: step-end;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav li {
+    margin: 10px;
+    font-size: large;
+    font-weight: 200;
+    
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  header {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  p {
+    font-size: 18px;
+    margin: 10px 0;
+    margin-top: 2%;
+  }
+  
+  section {
+    padding: 60px;
+  }
+  
+  h2 {
+    font-size: 36px;
+    margin-top: 20px auto;
+    background-color: antiquewhite; 
+  }
+
+
+  footer {
+    width: 100%;
+    background-color: #504f4f;
+    padding:5px;
+    margin-top:10%;
+    height: 80px;
+}
+footer p{
+    color:#dedede;
+    text-align: center;
+
+}
+ 
+  
